@@ -1,0 +1,84 @@
+
+
+
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 210mm;
+    /* A4 paper width */
+    height: 297mm;
+    /* A4 paper height */
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#info {
+    width: 30%;
+    height: 95%;
+    margin: 10px;
+    margin-top: 30px;
+    border-right: solid 2px black;
+
+}
+
+#intro {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+
+#self{
+    border: 2px solid black;
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+#info h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#contact img{
+    width: 20px;
+    display:inline;
+    margin: 10px;
+}
+
+#contact p{
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    font-size: 14px;
+    
+    
+}
+
+#contact span{
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+
+#main{
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+#main h2{
+    font-weight: 400;
+}
+
+#intro img{
+    margin-left: 15px;
+}
